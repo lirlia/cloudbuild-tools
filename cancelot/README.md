@@ -1,6 +1,8 @@
 # Cancelot
 
-This tool is a shell version of Cancelot published in cloud-builders-community. Inspired by siberex's [gist] (https://gist.github.com/siberex/bb0540b208019382d08732cc6dd59007).
+This tool is a shell version of Cancelot published in cloud-builders-community. 
+
+Inspired by siberex's [gist](https://gist.github.com/siberex/bb0540b208019382d08732cc6dd59007)
 
 ## Feature
 
