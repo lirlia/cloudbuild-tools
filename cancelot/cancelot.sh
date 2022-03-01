@@ -10,12 +10,12 @@ echoerr() { echo "$@" 1>&2; }
 usage() {
     cat <<USAGE >&2
 Usage:
-    $CMDNAME --current_build_id \$BUILD_ID [--branch_name \$BRANCH_NAME] [--same_trigger_only]
+    $CMDNAME --current_build_id \$BUILD_ID [--branch_name \$BRANCH_NAME] [--region \$REGION] [--same_trigger_only]
     --current_build_id \$BUILD_ID  Current Build Id
     --branch_name \$BRANCH_NAME    Trigger branch (aka head branch)
                                     (optional, defaults to current build substitutions.BRANCH_NAME)
     --region \$REGION              Region (if you use CloudBuild Private Pool)
-    --same_trigger_only           Only cancel builds with the same Trigger Id as current build’s trigger id
+    --same_trigger_only            Only cancel builds with the same Trigger Id as current build’s trigger id
                                     (optional, defaults to false = cancel all matching branch)
 USAGE
     exit 1
