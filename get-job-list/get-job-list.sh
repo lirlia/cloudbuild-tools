@@ -16,7 +16,7 @@ Usage:
 Options
     --build_id [BUILD_ID]                           Job to use for search
     --check_trigger_name_regex [TRIGGER_NAME_REGEX] Regular expression used when searching for build trigger names.
-    --limit num Upper                               limit of the number of searches.
+    --limit [NUMBER]                                Limit of the number of searches.
     --disable_on_going                              Normally, only running jobs are targeted, but when this flag is set, all jobs are targeted.
     --region [REGION_NAME]                          Please specify the region when you use Private Pool.
     --help / -h
@@ -26,7 +26,7 @@ USAGE
 LIMIT=10                    # Number of Cloudbuild jobs to search for
 BUILD_ID=dummy              # This is the job ID from which to start the search. Check for jobs created before this job
 TRIGGER_NAME_REGEX=dummy    # The name of the trigger that executed the job to be searched
-ONGOING_FLAG=true           # set to true to target only ongoing (currently running) jobs
+ONGOING_FLAG=true           # Set to true to target only ongoing (currently running) jobs
 REGION=""                   # Required for use with worker pools
 
 
