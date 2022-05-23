@@ -75,7 +75,7 @@ function getOngoingJobListBeforeSpecificJob() {
         # Get build ID
         --format="value(ID)"
         # Filter the search.
-        --filter="id!=$BUILD_ID \}
+        --filter="id!=$BUILD_ID \
                     AND startTime<=$build_start_time\
                     AND substitutions.TRIGGER_NAME~$TRIGGER_NAME_REGEX"
         # The region to use in the worker pool.
