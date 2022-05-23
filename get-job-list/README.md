@@ -11,7 +11,7 @@ By incorporating it into the Cloud Build steps, you will be able to:
 
 ```bash
 Usage:
-    get-filtered-cloudbuild-job-list.sh [OPTIONS]
+    get-job-list.sh [OPTIONS]
 
 Options
     --build_id [BUILD_ID]                           Job to use for search
@@ -33,7 +33,7 @@ steps:
       - -c
       - |
 
-        curl -sS https://raw.githubusercontent.com/lirlia/cloudbuild-tools/main/get-job-list/get-filtered-cloudbuild-job-list.sh > get-filtered-cloudbuild-job-list.sh
+        curl -sS https://raw.githubusercontent.com/lirlia/cloudbuild-tools/main/get-job-list/get-job-list.sh > get-job-list.sh
         chmod +x get-job-list.sh
-        ./get-filtered-cloudbuild-job-list.sh
+        ./get-job-list.sh
 ```
