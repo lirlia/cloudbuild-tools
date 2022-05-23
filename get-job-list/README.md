@@ -16,7 +16,7 @@ Usage:
 Options
     --build_id [BUILD_ID]                           Job to use for search
     --check_trigger_name_regex [TRIGGER_NAME_REGEX] Regular expression used when searching for build trigger names.
-    --limit [NUMBER]                                limit of the number of searches.
+    --limit [NUMBER]                                Limit of the number of searches.
     --disable_on_going                              Normally, only running jobs are targeted, but when this flag is set, all jobs are targeted.
     --region [REGION_NAME]                          Please specify the region when you use Private Pool.
     --help / -h
